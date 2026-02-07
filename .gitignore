@@ -1,0 +1,49 @@
+# Visual Studio / VS Code
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.slnx
+
+# Build
+bin/
+obj/
+Debug/
+Release/
+apphost.*
+*.dll
+*.exe
+*.pdb
+*.cache
+*.mdb
+*.log
+*.vsix
+
+# Rider
+.idea/
+
+# Resharper
+*.DotSettings.user
+
+# ASP.NET Core
+wwwroot/lib/
+*.db
+*.db-shm
+*.db-wal
+
+# EF Core Migrations
+Migrations/
+
+# Node / npm (si llegas a usar frontend)
+node_modules/
+
+# Visual Studio Code
+.vscode/
+
+# Otros
+*.vsix
+*.nupkg
+*.snk
+*.userprefs
+*.DotSettings

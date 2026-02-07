@@ -30,10 +30,12 @@ namespace ModuloTrabajadores.Services
         // ================= OBTENER POR ID =================
         public async Task<Trabajador?> ObtenerPorIdAsync(int id)
         {
-            return await _context.Trabajadores
-                                 .FromSqlRaw("CALL sp_ObtenerTrabajadorPorId({0})", id)
-                                 .AsNoTracking()
-                                 .FirstOrDefaultAsync();
+            var trabajador = await _context.Trabajadores
+                        .FromSqlRaw("SELECT * FROM trabajadores WHERE Id = {0}", id)
+                        .AsNoTracking()
+                        .FirstOrDefaultAsync();
+
+            return trabajador;
         }
 
         // ================= REGISTRAR =================
