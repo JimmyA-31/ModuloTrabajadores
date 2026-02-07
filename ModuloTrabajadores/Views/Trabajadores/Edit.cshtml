@@ -1,0 +1,71 @@
+﻿@model ModuloTrabajadores.Models.Trabajador
+@{
+    ViewData["Title"] = "Editar Trabajador";
+}
+
+<div class="card">
+    <div class="card-header bg-warning fw-bold">
+        <i class="bi bi-pencil-square"></i> Editar Trabajador
+    </div>
+
+    <div class="card-body">
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="Foto" />
+
+            <div class="row g-3">
+
+                <div class="col-md-6">
+                    <label class="form-label">Nombres</label>
+                    <input asp-for="Nombres" class="form-control" />
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Apellidos</label>
+                    <input asp-for="Apellidos" class="form-control" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Tipo Documento</label>
+                    <input asp-for="TipoDocumento" class="form-control" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Número Documento</label>
+                    <input asp-for="NumeroDocumento" class="form-control" />
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Sexo</label>
+                    <select asp-for="Sexo" class="form-select">
+                        <option>Masculino</option>
+                        <option>Femenino</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Fecha Nacimiento</label>
+                    <input asp-for="FechaNacimiento" type="date" class="form-control" />
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Nueva Foto (opcional)</label>
+                    <input asp-for="FotoArchivo" type="file" class="form-control" />
+                </div>
+
+                <div class="col-12">
+                    <label class="form-label">Dirección</label>
+                    <textarea asp-for="Direccion" class="form-control"></textarea>
+                </div>
+
+                <div class="col-12 text-end">
+                    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+                    <button class="btn btn-warning">
+                        <i class="bi bi-save"></i> Actualizar
+                    </button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

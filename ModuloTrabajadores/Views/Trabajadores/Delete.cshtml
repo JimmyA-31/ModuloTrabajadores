@@ -1,0 +1,25 @@
+﻿@model ModuloTrabajadores.Models.Trabajador
+@{
+    ViewData["Title"] = "Eliminar";
+}
+
+<div class="card border-danger">
+
+    <div class="card-header bg-danger text-white">
+        <i class="bi bi-exclamation-triangle"></i> Confirmar Eliminación
+    </div>
+
+    <div class="card-body text-center">
+        <p class="fs-5">
+            ¿Está seguro de eliminar a <strong>@Model.Nombres @Model.Apellidos</strong>?
+        </p>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+            <button class="btn btn-danger">
+                <i class="bi bi-trash"></i> Eliminar
+            </button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+﻿@model ModuloTrabajadores.Models.Trabajador
+@{
+    ViewData["Title"] = "Detalle Trabajador";
+}
+
+<div class="card">
+    <div class="card-header bg-info text-white fw-bold">
+        <i class="bi bi-person-lines-fill"></i> Detalle del Trabajador
+    </div>
+
+    <div class="card-body">
+        <div class="row align-items-center">
+
+            <div class="col-md-3 text-center">
+                <img src="~/fotos/@Model.Foto"
+                     class="rounded-circle border mb-3"
+                     width="140" height="140"
+                     style="object-fit:cover" />
+            </div>
+
+            <div class="col-md-9">
+                <dl class="row">
+
+                    <dt class="col-sm-4">Nombres</dt>
+                    <dd class="col-sm-8">@Model.Nombres</dd>
+
+                    <dt class="col-sm-4">Apellidos</dt>
+                    <dd class="col-sm-8">@Model.Apellidos</dd>
+
+                    <dt class="col-sm-4">Documento</dt>
+                    <dd class="col-sm-8">
+                        @Model.TipoDocumento - @Model.NumeroDocumento
+                    </dd>
+
+                    <dt class="col-sm-4">Sexo</dt>
+                    <dd class="col-sm-8">
+                        <span class="badge @(Model.Sexo == "Masculino" ? "badge-m" : "badge-f")">
+                            @Model.Sexo
+                        </span>
+                    </dd>
+
+                    <dt class="col-sm-4">Fecha Nacimiento</dt>
+                    <dd class="col-sm-8">
+                        @Model.FechaNacimiento.ToString("dd/MM/yyyy")
+                    </dd>
+
+                    <dt class="col-sm-4">Dirección</dt>
+                    <dd class="col-sm-8">@Model.Direccion</dd>
+
+                </dl>
+            </div>
+        </div>
+
+        <div class="text-end mt-3">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                <i class="bi bi-pencil"></i> Editar
+            </a>
+            <a asp-action="Index" class="btn btn-secondary">
+                Volver
+            </a>
+        </div>
+    </div>
+</div>

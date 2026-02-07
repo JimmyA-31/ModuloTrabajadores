@@ -1,0 +1,135 @@
+﻿@model IEnumerable<ModuloTrabajadores.Models.Trabajador>
+
+@{
+    ViewData["Title"] = "Mantenimiento de Trabajadores";
+    string sexoSeleccionado = ViewBag.Sexo as string ?? "";
+}
+
+<div class="container-fluid">
+    <partial name="_Alerts" />
+
+    <!-- HEADER -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-0">
+                <i class="bi bi-people-fill text-primary"></i>
+                Mantenimiento de Trabajadores
+            </h2>
+            <small class="text-muted">Gestión y administración de personal</small>
+        </div>
+
+        <a asp-action="Create" class="btn btn-primary btn-lg shadow-sm">
+            <i class="bi bi-person-plus-fill"></i>
+            Nuevo Trabajador
+        </a>
+    </div>
+
+    <!-- FILTRO -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form method="get" class="row g-3 align-items-end">
+                <div class="col-md-3">
+                    <label class="form-label fw-semibold">Filtrar por sexo</label>
+                    <select name="sexo" class="form-select">
+                        <option value="">Todos</option>
+
+                        @if (sexoSeleccionado == "Masculino")
+                        {
+                            <option value="Masculino" selected>Masculino</option>
+                        }
+                        else
+                        {
+                            <option value="Masculino">Masculino</option>
+                        }
+
+                        @if (sexoSeleccionado == "Femenino")
+                        {
+                            <option value="Femenino" selected>Femenino</option>
+                        }
+                        else
+                        {
+                            <option value="Femenino">Femenino</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-outline-primary w-100">
+                        <i class="bi bi-funnel-fill"></i> Aplicar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- TABLA -->
+    <div class="card shadow-sm">
+        <div class="card-body table-responsive">
+
+            <table class="table table-hover align-middle">
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>Foto</th>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Tipo Doc.</th>
+                        <th>N° Documento</th>
+                        <th>Sexo</th>
+                        <th>Fecha Nac.</th>
+                        <th>Dirección</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var t in Model)
+                    {
+                        <tr class="@(t.Sexo == "Masculino" ? "table-primary" : "table-warning")">
+                            <td class="text-center">
+                                <img src="~/fotos/@t.Foto"
+                                     class="rounded-circle border"
+                                     width="55" height="55"
+                                     style="object-fit:cover" />
+                            </td>
+                            <td>@t.Nombres</td>
+                            <td>@t.Apellidos</td>
+                            <td>@t.TipoDocumento</td>
+                            <td>@t.NumeroDocumento</td>
+                            <td class="text-center">
+                                <span class="badge @(t.Sexo == "Masculino" ? "bg-primary" : "bg-warning text-dark")">
+                                    @t.Sexo
+                                </span>
+                            </td>
+                            <td>@t.FechaNacimiento.ToString("dd/MM/yyyy")</td>
+                            <td class="text-truncate" style="max-width:200px">
+                                @t.Direccion
+                            </td>
+                            <td class="text-center">
+                                <a asp-action="Details" asp-route-id="@t.Id"
+                                   class="btn btn-sm btn-info text-white mb-1">
+                                    <i class="bi bi-eye-fill"></i>
+                                </a>
+                                <a asp-action="Edit" asp-route-id="@t.Id"
+                                   class="btn btn-sm btn-warning mb-1">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@t.Id"
+                                   class="btn btn-sm btn-danger mb-1">
+                                    <i class="bi bi-trash-fill"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            @if (!Model.Any())
+            {
+                <div class="alert alert-secondary text-center mt-4">
+                    <i class="bi bi-info-circle"></i>
+                    No existen trabajadores registrados.
+                </div>
+            }
+
+        </div>
+    </div>
+</div>

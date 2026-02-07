@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\controllers\\trabajadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\views\\trabajadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\views\\trabajadores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\views\\shared\\_alerts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\views\\shared\\_alerts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\views\\trabajadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\views\\trabajadores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\views\\trabajadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\views\\trabajadores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\views\\trabajadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\views\\trabajadores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\views\\trabajadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\views\\trabajadores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\services\\trabajadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\services\\trabajadorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\models\\trabajador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\data\\mysqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\data\\mysqlconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|c:\\users\\giane\\source\\repos\\modulotrabajadores\\modulotrabajadores\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65ECD322-ACD7-2272-BE52-E0C5CB744ACE}|ModuloTrabajadores\\ModuloTrabajadores.csproj|solutionrelative:modulotrabajadores\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ModuloTrabajadores\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwDYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T22:42:58.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Views\\Trabajadores\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Delete.cshtml",
+              "RelativeToolTip": "ModuloTrabajadores\\Views\\Trabajadores\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T22:15:10.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Views\\Trabajadores\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Edit.cshtml",
+              "RelativeToolTip": "ModuloTrabajadores\\Views\\Trabajadores\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T22:13:31.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Index.cshtml",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Views\\Trabajadores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Index.cshtml",
+              "RelativeToolTip": "ModuloTrabajadores\\Views\\Trabajadores\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T22:10:29.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrabajadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Controllers\\TrabajadoresController.cs",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Controllers\\TrabajadoresController.cs",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Controllers\\TrabajadoresController.cs",
+              "RelativeToolTip": "ModuloTrabajadores\\Controllers\\TrabajadoresController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T22:07:26.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Create.cshtml",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Views\\Trabajadores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Create.cshtml",
+              "RelativeToolTip": "ModuloTrabajadores\\Views\\Trabajadores\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T22:00:45.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Alerts.cshtml",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Shared\\_Alerts.cshtml",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Views\\Shared\\_Alerts.cshtml",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Shared\\_Alerts.cshtml",
+              "RelativeToolTip": "ModuloTrabajadores\\Views\\Shared\\_Alerts.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T22:59:21.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Details.cshtml",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Views\\Trabajadores\\Details.cshtml",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Views\\Trabajadores\\Details.cshtml",
+              "RelativeToolTip": "ModuloTrabajadores\\Views\\Trabajadores\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-05T22:14:29.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Trabajador.cs",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Models\\Trabajador.cs",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Models\\Trabajador.cs",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Models\\Trabajador.cs",
+              "RelativeToolTip": "ModuloTrabajadores\\Models\\Trabajador.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T20:47:54.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TrabajadorService.cs",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Services\\TrabajadorService.cs",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Services\\TrabajadorService.cs",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Services\\TrabajadorService.cs",
+              "RelativeToolTip": "ModuloTrabajadores\\Services\\TrabajadorService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwDoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:06:20.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MySqlConnectionFactory.cs",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Data\\MySqlConnectionFactory.cs",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Data\\MySqlConnectionFactory.cs",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Data\\MySqlConnectionFactory.cs",
+              "RelativeToolTip": "ModuloTrabajadores\\Data\\MySqlConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:18:42.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Program.cs",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Program.cs",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Program.cs",
+              "RelativeToolTip": "ModuloTrabajadores\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T17:32:07.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ModuloTrabajadores\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\giane\\source\\repos\\ModuloTrabajadores\\ModuloTrabajadores\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ModuloTrabajadores\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T18:06:49.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
